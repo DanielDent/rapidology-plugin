@@ -1,8 +1,7 @@
 (function($){
 
 	jQuery(document).ready(function($) {
-		var server = 'moc.topsppa.revres-ygolodipar//:sptth';
-		server = server.split('').reverse().join('');
+		var server = 'https://rapidology-server.appspot.com';
 		var goto_mode = function(mode) {
 			var $radActScr = $('.rad_act_scr');
             switch (mode) {
